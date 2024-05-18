@@ -12,7 +12,7 @@ const session = require('express-session');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const bcrypt = require('bcrypt');
-const pool = require('./db'); // Import the pool from db.js
+const pool = require('../db'); // Adjust the path to db.js
 const morgan = require('morgan');
 
 const app = express();
