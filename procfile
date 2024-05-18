@@ -1,2 +1,2 @@
-web: node employeemanagementsystem/server.js
+web: node server.js
 
